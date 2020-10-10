@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;    
+}
+
+.div-block {
+    display: block;
+}
+
+.field {
+    margin-bottom: 1.2rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.long-field {
+    width: 25rem;        
+}
+
+.short-field {
+    width: 12rem;    
+    margin-right: 0.8rem;        
+}
