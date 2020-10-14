@@ -2,10 +2,44 @@ h1 {
     text-align: center;
 }
 
+label:first-child {
+    margin-left: 4rem;
+}
+
+label:last-child {
+    margin-right: 4rem;
+}
+
+.radio-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cat-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 28rem;
+    height: 28rem;
+}
+
+.cat-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 24rem;
+    height: 22rem;
+}   
+
+.btn {
+    margin-left: 10.2rem;
+}
+
 .container {
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;      
 }
 
 .div-block {

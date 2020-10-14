@@ -1,11 +1,15 @@
+h1 {
+    text-align: center;
+}
+
 .container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;    
 }
 
-.header-main {
-    width: fit-content;
+.header-main {    
     display: block;
 }
 
@@ -38,14 +42,6 @@
 
 .btn-orange {
     background-color: #e9780f;
-}
-
-.img-center {    
-    display: flex;
-    justify-content: center;
-    align-items: center;      
-    bottom: 0;
-    margin-left: auto;
 }
 
 img {
