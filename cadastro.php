@@ -54,21 +54,21 @@
             </div>            
 
             <div class="general">                
-                <input type="text" name="txtendereco" id="txtendereco" placeholder="Endereço" value="<?php echo $endereco; ?>" class="field long-field" required></br>
-                <input type="email" name="txtemail" placeholder="E-mail" class="field long-field" value="<?php echo $email; ?>" required></br>
-                <input type="tel" name="txttelefone" id="txttelefone" maxlength="11" class="field long-field phone_with_ddd" placeholder="Telefone" value="<?php echo $telefone; ?>" required></br>
+                <input type="text" name="txtendereco" id="txtendereco" placeholder="Endereço" value="<?php echo $endereco; ?>" class="field long-field"></br>
+                <input type="email" name="txtemail" id="txtemail" placeholder="E-mail" class="field long-field" value="<?php echo $email; ?>" required></br>
+                <input type="tel" name="txttelefone" id="txttelefone" maxlength="11" class="field long-field phone_with_ddd" placeholder="Telefone" value="<?php echo $telefone; ?>"></br>
             </div>
 
             <div class="content-cpf">
-                <input type="text" name="txtnome" id="txtnome" placeholder="Nome Completo" class="field long-field" value="<?php echo $nome; ?>" required></br> 
-                <input type="text" name="date" id="txtdata" placeholder="Data de Nascimento" maxlength="11" class="field short-field date" value="<?php echo $data; ?>" required>            
-                <input type="text" name="txtcpf" id="txtcpf" placeholder="CPF" maxlength="14" class="field short-field cpf" value="<?php echo $codigocpf; ?>" required></br>
+                <input type="text" name="txtnome" id="txtnome" placeholder="Nome Completo" class="field long-field" value="<?php echo $nome; ?>"></br> 
+                <input type="text" name="txtdata" id="txtdata" placeholder="Data de Nascimento" maxlength="11" class="field short-field date" value="<?php echo $data; ?>">            
+                <input type="text" name="txtcpf" id="txtcpf" placeholder="CPF" maxlength="14" class="field short-field cpf" value="<?php echo $codigocpf; ?>"></br>
             </div>
 
             <div class="content-cnpj">
-                <input type="text" name="txtrazao" id="txtrazao" placeholder="Razão Social" value="<?php echo $razao; ?>" class="field long-field" required></br>
-                <input type="text" name="txtfantasia" id="txtfantasia" placeholder="Nome Fantasia" value="<?php echo $fantasia; ?>" class="field long-field" required></br>
-                <input type="text" name="txtcnpj" id="txtcnpj" placeholder="CNPJ" value="<?php echo $codigocnpj; ?>" class="field short-field cnpj" required></br>
+                <input type="text" name="txtrazao" id="txtrazao" placeholder="Razão Social" value="<?php echo $razao; ?>" class="field long-field"></br>
+                <input type="text" name="txtfantasia" id="txtfantasia" placeholder="Nome Fantasia" value="<?php echo $fantasia; ?>" class="field long-field"></br>
+                <input type="text" name="txtcnpj" id="txtcnpj" placeholder="CNPJ" value="<?php echo $codigocnpj; ?>" class="field short-field cnpj"></br>
             </div>
 
             <input type="submit" value="Enviar" class="animate-up">

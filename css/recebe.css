@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    color: white;
+    background-color: #28a745 !important;
+    align-items: center;
+    margin: 32px;
+    padding: 24px;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 360px;
+}
